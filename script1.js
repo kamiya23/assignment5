@@ -34,7 +34,7 @@ function demo() {
  window.alert("you are redirecting to Google site");   
 }*/
 
-//STEP 7
+/*//STEP 7
 function checkName() {
                var elMsg = document.getElementById('feedback');
                if(this.value.length < 5) {
@@ -45,4 +45,14 @@ function checkName() {
            }
            
            var elUserName = document.getElementById('name');
-           elUserName.addEventListener('blur', checkName,false);
+           elUserName.addEventListener('blur', checkName,false);*/
+           
+           
+
+//STEP 10
+ function dispName() {
+    var obj = document.getElementById("sCity");
+    var disp = obj.options[obj.selectedIndex].text;
+    window.alert("Selected City Name is: " + disp);
+        
+        }
