@@ -34,18 +34,12 @@ function demo() {
  window.alert("you are redirecting to Google site");   
 }*/
 
-/*//STEP 7
-function checkName() {
-               var elMsg = document.getElementById('feedback');
-               if(this.value.length < 5) {
-                   elMsg.textContent = 'Your user name needs to be 5 characters or more';
-               } else {
-                   elMsg.textContent = '';
-               }
-           }
-           
-           var elUserName = document.getElementById('name');
-           elUserName.addEventListener('blur', checkName,false);*/
+
+//STEP 7
+function show() {
+   var x = document.getElementById("name").value;
+   window.alert(x);
+}
            
            
 
